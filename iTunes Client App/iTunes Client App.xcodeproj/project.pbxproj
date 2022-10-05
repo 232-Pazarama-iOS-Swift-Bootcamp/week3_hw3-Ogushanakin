@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712F5EC228ECCB4A0018E841 /* EBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5EC128ECCB4A0018E841 /* EBookViewController.swift */; };
+		712F5EC528ECCBC20018E841 /* EBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5EC428ECCBC20018E841 /* EBookView.swift */; };
+		712F5EC728ECCBD70018E841 /* EBookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5EC628ECCBD70018E841 /* EBookCollectionViewCell.swift */; };
+		712F5EC928ECCBE20018E841 /* EBookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5EC828ECCBE20018E841 /* EBookResponse.swift */; };
+		712F5ECB28ECCBEB0018E841 /* EBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ECA28ECCBEB0018E841 /* EBook.swift */; };
+		712F5ECD28ECCC0E0018E841 /* EBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ECC28ECCC0E0018E841 /* EBookDetailViewController.swift */; };
+		712F5ED128ECCC300018E841 /* EBookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ED028ECCC300018E841 /* EBookDetailView.swift */; };
+		712F5ED328ECCEB90018E841 /* EBookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ED228ECCEB90018E841 /* EBookRequest.swift */; };
 		71974CF728EC8DF60083F027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974CF628EC8DF60083F027 /* AppDelegate.swift */; };
 		71974CF928EC8DF60083F027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974CF828EC8DF60083F027 /* SceneDelegate.swift */; };
 		71974D0028EC8DF80083F027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71974CFF28EC8DF80083F027 /* Assets.xcassets */; };
@@ -43,9 +51,19 @@
 		71974D6F28ECAB110083F027 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974D6E28ECAB110083F027 /* MusicDetailViewController.swift */; };
 		71974D7128ECAB300083F027 /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974D7028ECAB300083F027 /* MusicDetailView.swift */; };
 		71974D7328ECAC010083F027 /* MusicRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974D7228ECAC010083F027 /* MusicRequest.swift */; };
+		71C07FD228ED5CE200DAD4F0 /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C07FD128ED5CE200DAD4F0 /* LibraryCollectionViewCell.swift */; };
+		71C07FD428ED5CF900DAD4F0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C07FD328ED5CF900DAD4F0 /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712F5EC128ECCB4A0018E841 /* EBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookViewController.swift; sourceTree = "<group>"; };
+		712F5EC428ECCBC20018E841 /* EBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookView.swift; sourceTree = "<group>"; };
+		712F5EC628ECCBD70018E841 /* EBookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookCollectionViewCell.swift; sourceTree = "<group>"; };
+		712F5EC828ECCBE20018E841 /* EBookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookResponse.swift; sourceTree = "<group>"; };
+		712F5ECA28ECCBEB0018E841 /* EBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBook.swift; sourceTree = "<group>"; };
+		712F5ECC28ECCC0E0018E841 /* EBookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDetailViewController.swift; sourceTree = "<group>"; };
+		712F5ED028ECCC300018E841 /* EBookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDetailView.swift; sourceTree = "<group>"; };
+		712F5ED228ECCEB90018E841 /* EBookRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookRequest.swift; sourceTree = "<group>"; };
 		71974CF328EC8DF60083F027 /* iTunes Client App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Client App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71974CF628EC8DF60083F027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71974CF828EC8DF60083F027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +102,8 @@
 		71974D6E28ECAB110083F027 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
 		71974D7028ECAB300083F027 /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
 		71974D7228ECAC010083F027 /* MusicRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRequest.swift; sourceTree = "<group>"; };
+		71C07FD128ED5CE200DAD4F0 /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		71C07FD328ED5CF900DAD4F0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		712F5EBA28ECC9D10018E841 /* EBook */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EBE28ECCAF90018E841 /* EBookController */,
+				712F5EBD28ECCAF70018E841 /* EBookView */,
+				712F5EBC28ECCAF50018E841 /* EBookModel */,
+			);
+			path = EBook;
+			sourceTree = "<group>";
+		};
+		712F5EBB28ECC9DD0018E841 /* EBookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EC028ECCAFF0018E841 /* EBookDetailController */,
+				712F5EBF28ECCAFD0018E841 /* EBookDetailView */,
+			);
+			path = EBookDetail;
+			sourceTree = "<group>";
+		};
+		712F5EBC28ECCAF50018E841 /* EBookModel */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EC828ECCBE20018E841 /* EBookResponse.swift */,
+				712F5ECA28ECCBEB0018E841 /* EBook.swift */,
+			);
+			path = EBookModel;
+			sourceTree = "<group>";
+		};
+		712F5EBD28ECCAF70018E841 /* EBookView */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EC328ECCB950018E841 /* EBookCollectionView */,
+				712F5EC428ECCBC20018E841 /* EBookView.swift */,
+			);
+			path = EBookView;
+			sourceTree = "<group>";
+		};
+		712F5EBE28ECCAF90018E841 /* EBookController */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EC128ECCB4A0018E841 /* EBookViewController.swift */,
+			);
+			path = EBookController;
+			sourceTree = "<group>";
+		};
+		712F5EBF28ECCAFD0018E841 /* EBookDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				712F5ED028ECCC300018E841 /* EBookDetailView.swift */,
+			);
+			path = EBookDetailView;
+			sourceTree = "<group>";
+		};
+		712F5EC028ECCAFF0018E841 /* EBookDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				712F5ECC28ECCC0E0018E841 /* EBookDetailViewController.swift */,
+			);
+			path = EBookDetailController;
+			sourceTree = "<group>";
+		};
+		712F5EC328ECCB950018E841 /* EBookCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				712F5EC628ECCBD70018E841 /* EBookCollectionViewCell.swift */,
+			);
+			path = EBookCollectionView;
+			sourceTree = "<group>";
+		};
 		71974CEA28EC8DF60083F027 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +220,8 @@
 				71974D1728EC94050083F027 /* MovieDetail */,
 				71974D1528EC94010083F027 /* Music */,
 				71974D1428EC93FF0083F027 /* MusicDetail */,
+				712F5EBA28ECC9D10018E841 /* EBook */,
+				712F5EBB28ECC9DD0018E841 /* EBookDetail */,
 				71974D1928EC940A0083F027 /* Library */,
 				71974D1628EC94030083F027 /* LibraryDetail */,
 				71974D1128EC934A0083F027 /* MainTabBarViewController */,
@@ -248,8 +339,8 @@
 			isa = PBXGroup;
 			children = (
 				71974D4E28EC9B090083F027 /* LibraryViewController */,
-				71974D4D28EC9B070083F027 /* New Group1 */,
-				71974D4C28EC9B040083F027 /* New Group */,
+				71974D4D28EC9B070083F027 /* LibraryView */,
+				71974D4C28EC9B040083F027 /* LibraryModel */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -335,6 +426,7 @@
 				71974D3228EC97CF0083F027 /* PodcastRequest.swift */,
 				71974D3428EC97E00083F027 /* MovieRequest.swift */,
 				71974D7228ECAC010083F027 /* MusicRequest.swift */,
+				712F5ED228ECCEB90018E841 /* EBookRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -381,18 +473,20 @@
 			path = MovieCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		71974D4C28EC9B040083F027 /* New Group */ = {
+		71974D4C28EC9B040083F027 /* LibraryModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = LibraryModel;
 			sourceTree = "<group>";
 		};
-		71974D4D28EC9B070083F027 /* New Group1 */ = {
+		71974D4D28EC9B070083F027 /* LibraryView */ = {
 			isa = PBXGroup;
 			children = (
+				71C07FD028ED5CAB00DAD4F0 /* LibraryCollectionView */,
+				71C07FD328ED5CF900DAD4F0 /* LibraryView.swift */,
 			);
-			path = "New Group1";
+			path = LibraryView;
 			sourceTree = "<group>";
 		};
 		71974D4E28EC9B090083F027 /* LibraryViewController */ = {
@@ -485,6 +579,14 @@
 			path = MusicDetailController;
 			sourceTree = "<group>";
 		};
+		71C07FD028ED5CAB00DAD4F0 /* LibraryCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				71C07FD128ED5CE200DAD4F0 /* LibraryCollectionViewCell.swift */,
+			);
+			path = LibraryCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -560,13 +662,18 @@
 				71974D1328EC939D0083F027 /* MainTabBarViewController.swift in Sources */,
 				71974D2528EC95800083F027 /* PodcastCollectionViewCell.swift in Sources */,
 				71974D6528ECA8BC0083F027 /* MusicCollectionViewCell.swift in Sources */,
+				712F5EC528ECCBC20018E841 /* EBookView.swift in Sources */,
+				712F5EC728ECCBD70018E841 /* EBookCollectionViewCell.swift in Sources */,
+				712F5EC928ECCBE20018E841 /* EBookResponse.swift in Sources */,
 				71974D5628EC9D010083F027 /* PodcastDetailViewController.swift in Sources */,
 				71974D3528EC97E00083F027 /* MovieRequest.swift in Sources */,
 				71974D5F28ECA8560083F027 /* MusicViewController.swift in Sources */,
 				71974D3328EC97CF0083F027 /* PodcastRequest.swift in Sources */,
+				71C07FD228ED5CE200DAD4F0 /* LibraryCollectionViewCell.swift in Sources */,
 				71974D5428EC9CEA0083F027 /* PodcastDetailView.swift in Sources */,
 				71974D2028EC950C0083F027 /* PodcastResponse.swift in Sources */,
 				71974D2928EC96230083F027 /* PodcastViewController.swift in Sources */,
+				712F5ECB28ECCBEB0018E841 /* EBook.swift in Sources */,
 				71974CF728EC8DF60083F027 /* AppDelegate.swift in Sources */,
 				71974D6F28ECAB110083F027 /* MusicDetailViewController.swift in Sources */,
 				71974D3928EC98120083F027 /* DataRequest.swift in Sources */,
@@ -579,13 +686,18 @@
 				71974D5A28ECA1090083F027 /* MovieDetailViewController.swift in Sources */,
 				71974D2F28EC977F0083F027 /* UIImage+Extensions.swift in Sources */,
 				71974D4B28EC9ABB0083F027 /* Movie.swift in Sources */,
+				712F5ECD28ECCC0E0018E841 /* EBookDetailViewController.swift in Sources */,
 				71974D3D28EC985D0083F027 /* HTTPMethod.swift in Sources */,
 				71974D5C28ECA11F0083F027 /* MovieDetailView.swift in Sources */,
 				71974D6928ECA9080083F027 /* MusicResponse.swift in Sources */,
+				712F5ED328ECCEB90018E841 /* EBookRequest.swift in Sources */,
 				71974D2728EC95A10083F027 /* PodcastView.swift in Sources */,
 				71974D3728EC97F90083F027 /* NetworkService.swift in Sources */,
+				712F5ED128ECCC300018E841 /* EBookDetailView.swift in Sources */,
 				71974D7128ECAB300083F027 /* MusicDetailView.swift in Sources */,
 				71974D4528EC99940083F027 /* MovieCollectionViewCell.swift in Sources */,
+				712F5EC228ECCB4A0018E841 /* EBookViewController.swift in Sources */,
+				71C07FD428ED5CF900DAD4F0 /* LibraryView.swift in Sources */,
 				71974D2228EC95220083F027 /* Podcast.swift in Sources */,
 				71974D4228EC99250083F027 /* MoviesViewController.swift in Sources */,
 				71974D7328ECAC010083F027 /* MusicRequest.swift in Sources */,

@@ -1,13 +1,13 @@
 //
-//  MusicCollectionViewCell.swift
+//  LibraryCollectionViewCell.swift
 //  iTunes Client App
 //
-//  Created by AKIN on 4.10.2022.
+//  Created by AKIN on 5.10.2022.
 //
 
 import UIKit
 
-final class MusicCollectionViewCell: UICollectionViewCell {
+final class LibraryCollectionViewCell: UICollectionViewCell {
     
     var image: UIImage? {
         didSet {

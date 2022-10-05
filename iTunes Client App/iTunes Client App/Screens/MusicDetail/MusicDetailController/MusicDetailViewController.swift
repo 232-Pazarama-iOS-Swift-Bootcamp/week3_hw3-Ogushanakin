@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MusicDetailViewController: UIViewController {
+final class MusicDetailViewController: UIViewController {
 
     var music: Music? {
         didSet {

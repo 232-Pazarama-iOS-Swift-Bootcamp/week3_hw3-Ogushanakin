@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MusicViewController: UIViewController {
+final class MusicViewController: UIViewController {
 
     // MARK: - Properties
     private let musicView = MusicView()

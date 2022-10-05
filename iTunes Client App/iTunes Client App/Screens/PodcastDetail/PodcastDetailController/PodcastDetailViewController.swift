@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodcastDetailViewController: UIViewController {
+final class PodcastDetailViewController: UIViewController {
 
     var favouritePodcasts: [Podcast?] = []
     

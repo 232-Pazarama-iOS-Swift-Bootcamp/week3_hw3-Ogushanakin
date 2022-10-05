@@ -1,5 +1,5 @@
 //
-//  MusicCollectionViewCell.swift
+//  EBookCollectionViewCell.swift
 //  iTunes Client App
 //
 //  Created by AKIN on 4.10.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MusicCollectionViewCell: UICollectionViewCell {
+final class EBookCollectionViewCell: UICollectionViewCell {
     
     var image: UIImage? {
         didSet {
