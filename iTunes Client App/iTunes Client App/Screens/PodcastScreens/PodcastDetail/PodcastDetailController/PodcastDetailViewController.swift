@@ -8,9 +8,6 @@
 import UIKit
 
 final class PodcastDetailViewController: UIViewController {
-
-    var favouritesList: [Podcast?] = []
-    
     
     var podcast: Podcast? {
         didSet {
@@ -29,13 +26,18 @@ final class PodcastDetailViewController: UIViewController {
         super.viewDidLoad()
         view = detailView
         
-        navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(addTapped))
+        configureItems()
     }
 
-    @objc func addTapped() {
-        favouritesList.append(podcast)
-        print("added")
+    private func configureItems() {
+        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
+    }
+    
+    
+    @objc private func favouriteList() {
+        let detailViewController = PodcastFavouritesViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 
 }

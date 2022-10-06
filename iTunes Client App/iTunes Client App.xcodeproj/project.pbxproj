@@ -15,7 +15,6 @@
 		712F5ECD28ECCC0E0018E841 /* EBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ECC28ECCC0E0018E841 /* EBookDetailViewController.swift */; };
 		712F5ED128ECCC300018E841 /* EBookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ED028ECCC300018E841 /* EBookDetailView.swift */; };
 		712F5ED328ECCEB90018E841 /* EBookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F5ED228ECCEB90018E841 /* EBookRequest.swift */; };
-		713EFE9F28EDD12A00FC1F65 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713EFE9D28EDD12A00FC1F65 /* Model.xcdatamodeld */; };
 		7140FCC428EEBB19009E116D /* AppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FCC328EEBB19009E116D /* AppCollectionViewCell.swift */; };
 		7140FCC628EEBB28009E116D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FCC528EEBB28009E116D /* AppView.swift */; };
 		7140FCC828EEBB69009E116D /* AppResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FCC728EEBB69009E116D /* AppResponse.swift */; };
@@ -27,6 +26,11 @@
 		7140FCE128EEDAB5009E116D /* EBookFavouriteListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FCE028EEDAB5009E116D /* EBookFavouriteListDetailView.swift */; };
 		7140FCE428EEDB26009E116D /* EBookFavouriteListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140FCE328EEDB26009E116D /* EBookFavouriteListDetailViewController.swift */; };
 		71593F7E28EDC4DD00F5B955 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71593F7D28EDC4DD00F5B955 /* AppViewController.swift */; };
+		715DC4EB28EF009B00229C8E /* PodcastFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DC4EA28EF009B00229C8E /* PodcastFavouritesViewController.swift */; };
+		715DC4EE28EF017400229C8E /* PodcastFavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DC4ED28EF017400229C8E /* PodcastFavouritesView.swift */; };
+		715DC4F028EF01B700229C8E /* PodcastFavouritesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DC4EF28EF01B700229C8E /* PodcastFavouritesCollectionViewCell.swift */; };
+		715DC4F228EF027F00229C8E /* PodcastFavouriteListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DC4F128EF027F00229C8E /* PodcastFavouriteListDetailViewController.swift */; };
+		715DC4F428EF02CA00229C8E /* PodcastFavouriteListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715DC4F328EF02CA00229C8E /* PodcastFavouriteListDetailView.swift */; };
 		71974CF728EC8DF60083F027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974CF628EC8DF60083F027 /* AppDelegate.swift */; };
 		71974CF928EC8DF60083F027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71974CF828EC8DF60083F027 /* SceneDelegate.swift */; };
 		71974D0028EC8DF80083F027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71974CFF28EC8DF80083F027 /* Assets.xcassets */; };
@@ -76,7 +80,6 @@
 		712F5ECC28ECCC0E0018E841 /* EBookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDetailViewController.swift; sourceTree = "<group>"; };
 		712F5ED028ECCC300018E841 /* EBookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookDetailView.swift; sourceTree = "<group>"; };
 		712F5ED228ECCEB90018E841 /* EBookRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookRequest.swift; sourceTree = "<group>"; };
-		713EFE9E28EDD12A00FC1F65 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		7140FCC328EEBB19009E116D /* AppCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCollectionViewCell.swift; sourceTree = "<group>"; };
 		7140FCC528EEBB28009E116D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		7140FCC728EEBB69009E116D /* AppResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppResponse.swift; sourceTree = "<group>"; };
@@ -88,6 +91,11 @@
 		7140FCE028EEDAB5009E116D /* EBookFavouriteListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookFavouriteListDetailView.swift; sourceTree = "<group>"; };
 		7140FCE328EEDB26009E116D /* EBookFavouriteListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBookFavouriteListDetailViewController.swift; sourceTree = "<group>"; };
 		71593F7D28EDC4DD00F5B955 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		715DC4EA28EF009B00229C8E /* PodcastFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFavouritesViewController.swift; sourceTree = "<group>"; };
+		715DC4ED28EF017400229C8E /* PodcastFavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFavouritesView.swift; sourceTree = "<group>"; };
+		715DC4EF28EF01B700229C8E /* PodcastFavouritesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFavouritesCollectionViewCell.swift; sourceTree = "<group>"; };
+		715DC4F128EF027F00229C8E /* PodcastFavouriteListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFavouriteListDetailViewController.swift; sourceTree = "<group>"; };
+		715DC4F328EF02CA00229C8E /* PodcastFavouriteListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFavouriteListDetailView.swift; sourceTree = "<group>"; };
 		71974CF328EC8DF60083F027 /* iTunes Client App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Client App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71974CF628EC8DF60083F027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71974CF828EC8DF60083F027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -250,6 +258,8 @@
 			children = (
 				71593F7928EDC46600F5B955 /* App */,
 				71593F7828EDC46200F5B955 /* AppDetail */,
+				715DC4E528EEF80900229C8E /* AppFavouriteList */,
+				715DC4E428EEF80600229C8E /* AppFavouriteListDetail */,
 			);
 			path = AppScreens;
 			sourceTree = "<group>";
@@ -259,6 +269,8 @@
 			children = (
 				71974D1528EC94010083F027 /* Music */,
 				71974D1428EC93FF0083F027 /* MusicDetail */,
+				715DC4E328EEF7D500229C8E /* MusicFavouriteList */,
+				715DC4E228EEF7D200229C8E /* MusicFavouriteListDetail */,
 			);
 			path = MusicScreens;
 			sourceTree = "<group>";
@@ -268,6 +280,8 @@
 			children = (
 				71974D1A28EC940D0083F027 /* Movie */,
 				71974D1728EC94050083F027 /* MovieDetail */,
+				715DC4E028EEF79D00229C8E /* MovieFavouriteList */,
+				715DC4E128EEF7A100229C8E /* MovieFavouriteListDetail */,
 			);
 			path = MovieScreens;
 			sourceTree = "<group>";
@@ -277,6 +291,8 @@
 			children = (
 				71974D1B28EC940F0083F027 /* Podcast */,
 				71974D1828EC94070083F027 /* PodcastDetail */,
+				715DC4DF28EEF75E00229C8E /* PodcastFavouritesList */,
+				715DC4DE28EEF75B00229C8E /* PodcastFavouriteListDetail */,
 			);
 			path = PodcastScreens;
 			sourceTree = "<group>";
@@ -340,6 +356,107 @@
 				71593F7D28EDC4DD00F5B955 /* AppViewController.swift */,
 			);
 			path = AppController;
+			sourceTree = "<group>";
+		};
+		715DC4DE28EEF75B00229C8E /* PodcastFavouriteListDetail */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4E828EF005600229C8E /* PodcastFavouriteListDetailViewController */,
+				715DC4E928EF006900229C8E /* PodcastFavouriteListDetailView */,
+			);
+			path = PodcastFavouriteListDetail;
+			sourceTree = "<group>";
+		};
+		715DC4DF28EEF75E00229C8E /* PodcastFavouritesList */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4E628EF000B00229C8E /* PodcastFavouritesViewController */,
+				715DC4E728EF001C00229C8E /* PodcastFavouritesView */,
+			);
+			path = PodcastFavouritesList;
+			sourceTree = "<group>";
+		};
+		715DC4E028EEF79D00229C8E /* MovieFavouriteList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieFavouriteList;
+			sourceTree = "<group>";
+		};
+		715DC4E128EEF7A100229C8E /* MovieFavouriteListDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieFavouriteListDetail;
+			sourceTree = "<group>";
+		};
+		715DC4E228EEF7D200229C8E /* MusicFavouriteListDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MusicFavouriteListDetail;
+			sourceTree = "<group>";
+		};
+		715DC4E328EEF7D500229C8E /* MusicFavouriteList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MusicFavouriteList;
+			sourceTree = "<group>";
+		};
+		715DC4E428EEF80600229C8E /* AppFavouriteListDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppFavouriteListDetail;
+			sourceTree = "<group>";
+		};
+		715DC4E528EEF80900229C8E /* AppFavouriteList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppFavouriteList;
+			sourceTree = "<group>";
+		};
+		715DC4E628EF000B00229C8E /* PodcastFavouritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4EA28EF009B00229C8E /* PodcastFavouritesViewController.swift */,
+			);
+			path = PodcastFavouritesViewController;
+			sourceTree = "<group>";
+		};
+		715DC4E728EF001C00229C8E /* PodcastFavouritesView */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4EC28EF015700229C8E /* PodcastFavouritesCollectionView */,
+				715DC4ED28EF017400229C8E /* PodcastFavouritesView.swift */,
+			);
+			path = PodcastFavouritesView;
+			sourceTree = "<group>";
+		};
+		715DC4E828EF005600229C8E /* PodcastFavouriteListDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4F128EF027F00229C8E /* PodcastFavouriteListDetailViewController.swift */,
+			);
+			path = PodcastFavouriteListDetailViewController;
+			sourceTree = "<group>";
+		};
+		715DC4E928EF006900229C8E /* PodcastFavouriteListDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4F328EF02CA00229C8E /* PodcastFavouriteListDetailView.swift */,
+			);
+			path = PodcastFavouriteListDetailView;
+			sourceTree = "<group>";
+		};
+		715DC4EC28EF015700229C8E /* PodcastFavouritesCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				715DC4EF28EF01B700229C8E /* PodcastFavouritesCollectionViewCell.swift */,
+			);
+			path = PodcastFavouritesCollectionView;
 			sourceTree = "<group>";
 		};
 		71974CEA28EC8DF60083F027 = {
@@ -485,7 +602,6 @@
 			children = (
 				71974D5228EC9C980083F027 /* PodcastDetailController */,
 				71974D5128EC9C950083F027 /* PodcastDetailView */,
-				713EFE9D28EDD12A00FC1F65 /* Model.xcdatamodeld */,
 			);
 			path = PodcastDetail;
 			sourceTree = "<group>";
@@ -806,7 +922,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				71974D3B28EC98270083F027 /* ErrorResponse.swift in Sources */,
-				713EFE9F28EDD12A00FC1F65 /* Model.xcdatamodeld in Sources */,
 				71974D4928EC9AB40083F027 /* MovieResponse.swift in Sources */,
 				71974D1328EC939D0083F027 /* MainTabBarViewController.swift in Sources */,
 				7140FCDD28EED484009E116D /* CoreDataModels.xcdatamodeld in Sources */,
@@ -847,8 +962,13 @@
 				71974D3D28EC985D0083F027 /* HTTPMethod.swift in Sources */,
 				71974D5C28ECA11F0083F027 /* MovieDetailView.swift in Sources */,
 				71974D6928ECA9080083F027 /* MusicResponse.swift in Sources */,
+				715DC4F228EF027F00229C8E /* PodcastFavouriteListDetailViewController.swift in Sources */,
+				715DC4F028EF01B700229C8E /* PodcastFavouritesCollectionViewCell.swift in Sources */,
 				712F5ED328ECCEB90018E841 /* EBookRequest.swift in Sources */,
+				715DC4F428EF02CA00229C8E /* PodcastFavouriteListDetailView.swift in Sources */,
+				715DC4EB28EF009B00229C8E /* PodcastFavouritesViewController.swift in Sources */,
 				71974D2728EC95A10083F027 /* PodcastView.swift in Sources */,
+				715DC4EE28EF017400229C8E /* PodcastFavouritesView.swift in Sources */,
 				71974D3728EC97F90083F027 /* NetworkService.swift in Sources */,
 				712F5ED128ECCC300018E841 /* EBookDetailView.swift in Sources */,
 				71974D7128ECAB300083F027 /* MusicDetailView.swift in Sources */,
@@ -1070,16 +1190,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		713EFE9D28EDD12A00FC1F65 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				713EFE9E28EDD12A00FC1F65 /* Model.xcdatamodel */,
-			);
-			currentVersion = 713EFE9E28EDD12A00FC1F65 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		7140FCDB28EED484009E116D /* CoreDataModels.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

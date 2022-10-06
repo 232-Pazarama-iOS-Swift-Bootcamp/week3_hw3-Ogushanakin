@@ -36,7 +36,6 @@ final class EBookDetailViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
     }
     
-    
     @objc private func favouriteList() {
         let detailViewController = EBookFavouritesViewController()
         navigationController?.pushViewController(detailViewController, animated: true)

@@ -1,13 +1,13 @@
 //
-//  PodcastDetailView.swift
+//  PodcastFavouriteListDetailView.swift
 //  iTunes Client App
 //
-//  Created by AKIN on 4.10.2022.
+//  Created by AKIN on 6.10.2022.
 //
 
 import UIKit
 
-class PodcastDetailView: UIView {
+class PodcastFavouriteListDetailView: UIView {
 
     var releaseDate: String? {
         didSet {
@@ -27,9 +27,9 @@ class PodcastDetailView: UIView {
     
     var country: String? {
         didSet {
-            countryKeyLabel.text = "Country:"
+            countryKeyLabel.text = "Price:"
             countryKeyLabel.font = .boldSystemFont(ofSize: 17.0)
-            countryLabel.text = country ?? "-"
+            countryLabel.text =  country ?? "-"
         }
     }
     
@@ -38,6 +38,14 @@ class PodcastDetailView: UIView {
             genresKeyLabel.text = "Genres:"
             genresKeyLabel.font = .boldSystemFont(ofSize: 17.0)
             genresLabel.text = genres ?? "-"
+        }
+    }
+    
+    var trackName: String? {
+        didSet {
+            longDescriptionKeyLabel.text = "Track Name:"
+            longDescriptionKeyLabel.font = .boldSystemFont(ofSize: 17.0)
+            longDescriptionLabel.text = trackName ?? "-"
         }
     }
     
@@ -77,6 +85,14 @@ class PodcastDetailView: UIView {
         return stackView
     }()
     
+    private var longDescriptionKeyLabel = UILabel()
+    private var longDescriptionLabel = UILabel()
+    private lazy var descriptionStackView: UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [longDescriptionKeyLabel, UIView(), longDescriptionLabel])
+        stackView.axis = .horizontal
+        return stackView
+    }()
+    
     lazy var button: UIButton! = {
             
             let button = UIButton()
@@ -85,11 +101,10 @@ class PodcastDetailView: UIView {
             button.layer.cornerRadius = 8.0
             button.setTitleColor(.white, for: .normal)
             button.addTarget(self, action: #selector(didTaped(_:)), for: .touchUpInside)
-            button.setTitle("Add Favourites", for: .normal)
+            button.setTitle("Delete from Favourites", for: .normal)
             return button
             
     }()
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -100,6 +115,7 @@ class PodcastDetailView: UIView {
         artistNameLabel.numberOfLines = .zero
         countryLabel.numberOfLines = .zero
         genresLabel.numberOfLines = .zero
+        longDescriptionLabel.numberOfLines = .zero
         
         addSubview(imageView)
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -113,7 +129,8 @@ class PodcastDetailView: UIView {
         let stackView = UIStackView(arrangedSubviews: [releaseDateStackView,
                                                        artistNameStackView,
                                                        countryStackView,
-                                                       genresStackView])
+                                                       genresStackView,
+                                                       descriptionStackView])
         stackView.axis = .vertical
         stackView.spacing = 8.0
         addSubview(stackView)
@@ -133,7 +150,7 @@ class PodcastDetailView: UIView {
         ])
         
     }
-    
+
     @objc func didTaped(_ sender: Any) {
         print("111")
     }

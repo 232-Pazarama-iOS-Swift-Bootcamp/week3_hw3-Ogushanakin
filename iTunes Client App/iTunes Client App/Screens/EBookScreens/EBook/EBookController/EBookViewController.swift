@@ -25,6 +25,7 @@ final class EBookViewController: UIViewController {
         title = "E-Books"
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        
         view = eBookView
         eBookView.setCollectionViewDelegate(self, andDataSource: self)
         
