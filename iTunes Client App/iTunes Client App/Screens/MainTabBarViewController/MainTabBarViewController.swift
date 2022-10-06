@@ -16,19 +16,19 @@ final class MainTabBarViewController: UITabBarController {
         let vc2 = UINavigationController(rootViewController: MoviesViewController())
         let vc3 = UINavigationController(rootViewController: MusicViewController())
         let vc4 = UINavigationController(rootViewController: EBookViewController())
-        let vc5 = UINavigationController(rootViewController: LibraryViewController())
+        let vc5 = UINavigationController(rootViewController: AppViewController())
                 
         vc1.tabBarItem.image = UIImage(systemName: "ipod")
         vc2.tabBarItem.image = UIImage(systemName: "popcorn")
         vc3.tabBarItem.image = UIImage(systemName: "music.note")
         vc4.tabBarItem.image = UIImage(systemName: "book")
-        vc5.tabBarItem.image = UIImage(systemName: "star")
+        vc5.tabBarItem.image = UIImage(systemName: "apps.iphone")
         
         vc1.title = "Podcasts"
         vc2.title = "Movies"
         vc3.title = "Music"
         vc4.title = "E-Book"
-        vc5.title = "Favourites"
+        vc5.title = "App"
         
         
         tabBar.tintColor = .label

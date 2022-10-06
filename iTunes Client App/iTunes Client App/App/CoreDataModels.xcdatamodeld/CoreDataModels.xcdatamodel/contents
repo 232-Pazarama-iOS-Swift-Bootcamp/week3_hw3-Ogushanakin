@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="22A5295i" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EBookCoreDataModel" representedClassName="EBookCoreDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="artistName" optional="YES" attributeType="String"/>
+        <attribute name="artworkLarge" optional="YES" attributeType="String"/>
+        <attribute name="formattedPrice" optional="YES" attributeType="String"/>
+        <attribute name="genres" optional="YES" attributeType="String"/>
+        <attribute name="releaseDate" optional="YES" attributeType="String"/>
+        <attribute name="shorttDescription" optional="YES" attributeType="String"/>
+        <attribute name="trackName" optional="YES" attributeType="String"/>
+    </entity>
+</model>
