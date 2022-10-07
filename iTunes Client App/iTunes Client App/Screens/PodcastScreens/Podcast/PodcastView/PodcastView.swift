@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodcastView: UIView {
+final class PodcastView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodcastFavouritesViewController: UIViewController {
+final class PodcastFavouritesViewController: UIViewController {
 
     // MARK: - Properties
     private let podcastView = PodcastFavouritesView()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EBookFavouritesView: UIView {
+final class EBookFavouritesView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

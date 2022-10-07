@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EBookFavouriteListDetailView: UIView {
+final class EBookFavouriteListDetailView: UIView {
 
     var releaseDate: String? {
         didSet {

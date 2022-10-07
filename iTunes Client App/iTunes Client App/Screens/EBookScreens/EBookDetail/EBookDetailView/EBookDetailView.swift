@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class EBookDetailView: UIView {
+final class EBookDetailView: UIView {
     
     var ebooksData = [NSManagedObject]()
 

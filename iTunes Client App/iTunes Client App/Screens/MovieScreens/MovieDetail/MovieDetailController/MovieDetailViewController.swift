@@ -29,13 +29,19 @@ final class MovieDetailViewController: UIViewController {
         super.viewDidLoad()
         view = movieDetailView
         
-        navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(addTapped))
+        configureItems()
     }
 
-    @objc func addTapped() {
-        favouritesList.append(movie!)
-        print("\(String(describing: movie?.trackName))")
+    private func configureItems() {
+        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.tintColor = .systemGray
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
+    }
+    
+    
+    @objc private func favouriteList() {
+        let detailViewController = MovieFavouritesViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 
 }

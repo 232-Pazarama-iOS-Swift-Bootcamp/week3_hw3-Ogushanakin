@@ -30,13 +30,14 @@ final class EBookDetailViewController: UIViewController {
         
         configureItems()
     }
-
+    
     private func configureItems() {
         navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
+        navigationController?.navigationBar.tintColor = .systemGray
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(addTapped))
     }
     
-    @objc private func favouriteList() {
+    @objc func addTapped() {
         let detailViewController = EBookFavouritesViewController()
         navigationController?.pushViewController(detailViewController, animated: true)
     }

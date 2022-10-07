@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MovieView: UIView {
+final class MovieView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

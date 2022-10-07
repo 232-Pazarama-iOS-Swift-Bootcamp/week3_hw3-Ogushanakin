@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EBookFavouriteListDetailViewController: UIViewController {
+final class EBookFavouriteListDetailViewController: UIViewController {
 
     var ebook: EBook? {
         didSet {

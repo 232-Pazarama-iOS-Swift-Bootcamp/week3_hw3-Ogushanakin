@@ -7,8 +7,9 @@
 
 import UIKit
 
-class PodcastFavouriteListDetailViewController: UIViewController {
+final class PodcastFavouriteListDetailViewController: UIViewController {
 
+    // MARK: - Properties
     var podcast: Podcast? {
         didSet {
             title = podcast?.trackName
@@ -23,11 +24,11 @@ class PodcastFavouriteListDetailViewController: UIViewController {
     
     private let podcastDetailFavouriteView = PodcastFavouriteListDetailView()
     
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view = podcastDetailFavouriteView
         navigationController?.navigationBar.prefersLargeTitles = false
-    }
-    
+    }  
 
 }

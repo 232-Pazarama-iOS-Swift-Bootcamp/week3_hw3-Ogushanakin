@@ -7,8 +7,9 @@
 
 import UIKit
 
-class PodcastDetailView: UIView {
-
+final class PodcastDetailView: UIView {
+    
+    // MARK: - Properties
     var releaseDate: String? {
         didSet {
             releaseDateKeyLabel.text = "Release Date:"
@@ -16,7 +17,6 @@ class PodcastDetailView: UIView {
             releaseDateLabel.text = releaseDate ?? "-"
         }
     }
-    
     var artistName: String? {
         didSet {
             artistNameKeyLabel.text = "Artist Name:"
@@ -24,7 +24,6 @@ class PodcastDetailView: UIView {
             artistNameLabel.text = artistName ?? "-"
         }
     }
-    
     var country: String? {
         didSet {
             countryKeyLabel.text = "Country:"
@@ -32,7 +31,6 @@ class PodcastDetailView: UIView {
             countryLabel.text = country ?? "-"
         }
     }
-    
     var genres: String? {
         didSet {
             genresKeyLabel.text = "Genres:"
@@ -40,8 +38,6 @@ class PodcastDetailView: UIView {
             genresLabel.text = genres ?? "-"
         }
     }
-    
-    
     
     private(set) var imageView = UIImageView()
     
@@ -90,7 +86,7 @@ class PodcastDetailView: UIView {
             
     }()
     
-    
+    // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -134,8 +130,10 @@ class PodcastDetailView: UIView {
         
     }
     
+    // MARK: - Methods
+    
     @objc func didTaped(_ sender: Any) {
-        print("111")
+        print("1111")
     }
     
     required init?(coder: NSCoder) {

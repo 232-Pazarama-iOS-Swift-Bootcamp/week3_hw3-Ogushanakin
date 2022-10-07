@@ -7,8 +7,9 @@
 
 import UIKit
 
-class PodcastFavouriteListDetailView: UIView {
+final class PodcastFavouriteListDetailView: UIView {
 
+    // MARK: - Properties
     var releaseDate: String? {
         didSet {
             releaseDateKeyLabel.text = "Release Date:"
@@ -16,7 +17,6 @@ class PodcastFavouriteListDetailView: UIView {
             releaseDateLabel.text = releaseDate ?? "-"
         }
     }
-    
     var artistName: String? {
         didSet {
             artistNameKeyLabel.text = "Artist Name:"
@@ -24,7 +24,6 @@ class PodcastFavouriteListDetailView: UIView {
             artistNameLabel.text = artistName ?? "-"
         }
     }
-    
     var country: String? {
         didSet {
             countryKeyLabel.text = "Price:"
@@ -32,7 +31,6 @@ class PodcastFavouriteListDetailView: UIView {
             countryLabel.text =  country ?? "-"
         }
     }
-    
     var genres: String? {
         didSet {
             genresKeyLabel.text = "Genres:"
@@ -40,7 +38,6 @@ class PodcastFavouriteListDetailView: UIView {
             genresLabel.text = genres ?? "-"
         }
     }
-    
     var trackName: String? {
         didSet {
             longDescriptionKeyLabel.text = "Track Name:"
@@ -48,8 +45,6 @@ class PodcastFavouriteListDetailView: UIView {
             longDescriptionLabel.text = trackName ?? "-"
         }
     }
-    
-    
     
     private(set) var imageView = UIImageView()
     
@@ -106,6 +101,7 @@ class PodcastFavouriteListDetailView: UIView {
             
     }()
     
+    // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -150,13 +146,13 @@ class PodcastFavouriteListDetailView: UIView {
         ])
         
     }
-
-    @objc func didTaped(_ sender: Any) {
-        print("111")
-    }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
+    
+    @objc func didTaped(_ sender: Any) {
+        print("111")
+    }
 }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PodcastFavouritesView: UIView {
+final class PodcastFavouritesView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

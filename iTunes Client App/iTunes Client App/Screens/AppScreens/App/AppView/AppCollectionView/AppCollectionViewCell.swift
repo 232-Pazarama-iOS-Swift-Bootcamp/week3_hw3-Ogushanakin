@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppCollectionViewCell: UICollectionViewCell {
+final class AppCollectionViewCell: UICollectionViewCell {
     
     var image: UIImage? {
         didSet {

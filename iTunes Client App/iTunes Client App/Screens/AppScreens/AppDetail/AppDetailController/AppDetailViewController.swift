@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppDetailViewController: UIViewController {
+final class AppDetailViewController: UIViewController {
 
     var app: App? {
         didSet {
@@ -29,14 +29,16 @@ class AppDetailViewController: UIViewController {
         
         configureItems()
     }
-
+    
     private func configureItems() {
         navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.tintColor = .systemGray
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(addTapped))
     }
     
-    @objc private func addTapped() {
-        print("11111111")
+    @objc func addTapped() {
+        let detailViewController = AppFavouritesViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 
 }

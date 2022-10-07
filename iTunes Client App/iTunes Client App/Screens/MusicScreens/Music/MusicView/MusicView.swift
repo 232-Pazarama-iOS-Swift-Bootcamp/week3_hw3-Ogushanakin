@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MusicView: UIView {
+final class MusicView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

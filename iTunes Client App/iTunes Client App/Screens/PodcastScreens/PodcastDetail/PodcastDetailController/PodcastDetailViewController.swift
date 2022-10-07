@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import Lottie
 
 final class PodcastDetailViewController: UIViewController {
     
+    // MARK: - Properties
     var podcast: Podcast? {
         didSet {
             title = podcast?.trackName
@@ -22,6 +24,7 @@ final class PodcastDetailViewController: UIViewController {
     
     private let detailView = PodcastDetailView()
     
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         view = detailView
@@ -29,8 +32,10 @@ final class PodcastDetailViewController: UIViewController {
         configureItems()
     }
 
+    // MARK: - Methods
     private func configureItems() {
         navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.tintColor = .systemGray
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
     }
     

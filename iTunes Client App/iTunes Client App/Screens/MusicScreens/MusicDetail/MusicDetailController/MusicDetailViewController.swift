@@ -8,8 +8,6 @@
 import UIKit
 
 final class MusicDetailViewController: UIViewController {
-    
-    var favouritesList: [Music] = []
 
     var music: Music? {
         didSet {
@@ -29,13 +27,19 @@ final class MusicDetailViewController: UIViewController {
         super.viewDidLoad()
         view = musicDetailView
         
-        navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "star") , style: .plain, target: self, action: #selector(addTapped))
+        configureItems()
     }
 
-    @objc func addTapped() {
-        favouritesList.append(music!)
-        print("\(String(describing: music?.trackName))")
+    private func configureItems() {
+        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.tintColor = .systemGray
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Favourites", image: UIImage(systemName: "star"), target: self, action: #selector(favouriteList))
+    }
+    
+    
+    @objc private func favouriteList() {
+        let detailViewController = MusicFavouritesViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 
 }

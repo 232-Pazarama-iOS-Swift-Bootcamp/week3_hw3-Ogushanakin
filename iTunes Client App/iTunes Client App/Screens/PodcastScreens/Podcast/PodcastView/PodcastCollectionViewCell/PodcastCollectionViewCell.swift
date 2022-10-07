@@ -7,8 +7,9 @@
 
 import UIKit
 
-class PodcastCollectionViewCell: UICollectionViewCell {
+final class PodcastCollectionViewCell: UICollectionViewCell {
     
+    // MARK: - Properties
     var image: UIImage? {
         didSet {
             imageView.image = image
@@ -45,6 +46,7 @@ class PodcastCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
+    // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -76,4 +78,6 @@ class PodcastCollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
         gradientLayer.frame = bounds
     }
+    // MARK: - Methods
+    
 }

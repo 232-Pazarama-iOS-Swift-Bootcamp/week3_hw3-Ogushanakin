@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppViewController: UIViewController {
+final class AppViewController: UIViewController {
 
     // MARK: - Properties
     private let appView = AppView()

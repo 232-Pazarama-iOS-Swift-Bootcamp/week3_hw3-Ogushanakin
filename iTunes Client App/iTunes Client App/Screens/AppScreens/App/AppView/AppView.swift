@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppView: UIView {
+final class AppView: UIView {
 
     // MARK: - Properties
     private let cellInset: CGFloat = 8.0

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MovieDetailView: UIView {
+final class MovieDetailView: UIView {
 
     var releaseDate: String? {
         didSet {
@@ -93,6 +93,19 @@ class MovieDetailView: UIView {
         return stackView
     }()
     
+    lazy var button: UIButton! = {
+            
+            let button = UIButton()
+            button.translatesAutoresizingMaskIntoConstraints = false
+            button.backgroundColor = .lightGray
+            button.layer.cornerRadius = 8.0
+            button.setTitleColor(.white, for: .normal)
+            button.addTarget(self, action: #selector(didTaped(_:)), for: .touchUpInside)
+            button.setTitle("Add Favourites", for: .normal)
+            return button
+            
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -128,6 +141,17 @@ class MovieDetailView: UIView {
             stackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16.0)
         ])
         
+        addSubview(button)
+                button.translatesAutoresizingMaskIntoConstraints = false
+                NSLayoutConstraint.activate([
+                    button.leadingAnchor.constraint(equalTo: stackView.leadingAnchor, constant: 32.0),
+                    button.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 32.0),
+                    button.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -32.0)
+        ])
+    }
+    
+    @objc func didTaped(_ sender: Any) {
+        print("1111")
     }
     
     required init?(coder: NSCoder) {
