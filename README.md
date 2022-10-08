@@ -7,6 +7,7 @@ A mobile application that presents Podcasts, Musics, Movie and Applications abou
 - MVC design pattern use
 - Programmatic UI, no storyboard.
 - Url Session
+- Core Data
 
 ## 📸 Screenshoots 
 
